@@ -6,73 +6,46 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		5154105816D72E7B007600A9 /* AsyncTestKitDocumentation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5154105916D72E7C007600A9 /* Build configuration list for PBXAggregateTarget "AsyncTestKitDocumentation" */;
+			buildPhases = (
+				5154105C16D72E87007600A9 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = AsyncTestKitDocumentation;
+			productName = dqsdqs;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		5154100A16D72A47007600A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5154100916D72A47007600A9 /* UIKit.framework */; };
-		5154100C16D72A47007600A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5154100B16D72A47007600A9 /* Foundation.framework */; };
-		5154100E16D72A47007600A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5154100D16D72A47007600A9 /* CoreGraphics.framework */; };
-		5154101416D72A47007600A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5154101216D72A47007600A9 /* InfoPlist.strings */; };
-		5154101616D72A47007600A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5154101516D72A47007600A9 /* main.m */; };
-		5154101A16D72A47007600A9 /* ACAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5154101916D72A47007600A9 /* ACAppDelegate.m */; };
-		5154101C16D72A47007600A9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5154101B16D72A47007600A9 /* Default.png */; };
-		5154101E16D72A47007600A9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5154101D16D72A47007600A9 /* Default@2x.png */; };
-		5154102016D72A47007600A9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5154101F16D72A47007600A9 /* Default-568h@2x.png */; };
-		5154102316D72A47007600A9 /* ACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5154102216D72A47007600A9 /* ACViewController.m */; };
-		5154102616D72A47007600A9 /* ACViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5154102416D72A47007600A9 /* ACViewController_iPhone.xib */; };
-		5154102916D72A47007600A9 /* ACViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5154102716D72A47007600A9 /* ACViewController_iPad.xib */; };
 		5154103116D72A47007600A9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5154103016D72A47007600A9 /* SenTestingKit.framework */; };
 		5154103216D72A47007600A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5154100916D72A47007600A9 /* UIKit.framework */; };
 		5154103316D72A47007600A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5154100B16D72A47007600A9 /* Foundation.framework */; };
 		5154103B16D72A47007600A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5154103916D72A47007600A9 /* InfoPlist.strings */; };
-		5154103E16D72A47007600A9 /* AsyncTestKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5154103D16D72A47007600A9 /* AsyncTestKitTests.m */; };
+		5154104A16D72AE9007600A9 /* ACAsyncTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5154104916D72AE9007600A9 /* ACAsyncTestCase.m */; };
+		5154104D16D72C4D007600A9 /* ACAsyncTestCaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5154104C16D72C4D007600A9 /* ACAsyncTestCaseTests.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		5154103416D72A47007600A9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 51540FFE16D72A47007600A9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5154100516D72A47007600A9;
-			remoteInfo = AsyncTestKit;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		5154100616D72A47007600A9 /* AsyncTestKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncTestKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5154100916D72A47007600A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5154100B16D72A47007600A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5154100D16D72A47007600A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5154101116D72A47007600A9 /* AsyncTestKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AsyncTestKit-Info.plist"; sourceTree = "<group>"; };
-		5154101316D72A47007600A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5154101516D72A47007600A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5154101716D72A47007600A9 /* AsyncTestKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AsyncTestKit-Prefix.pch"; sourceTree = "<group>"; };
-		5154101816D72A47007600A9 /* ACAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACAppDelegate.h; sourceTree = "<group>"; };
-		5154101916D72A47007600A9 /* ACAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACAppDelegate.m; sourceTree = "<group>"; };
-		5154101B16D72A47007600A9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		5154101D16D72A47007600A9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		5154101F16D72A47007600A9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		5154102116D72A47007600A9 /* ACViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACViewController.h; sourceTree = "<group>"; };
-		5154102216D72A47007600A9 /* ACViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACViewController.m; sourceTree = "<group>"; };
-		5154102516D72A47007600A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ACViewController_iPhone.xib; sourceTree = "<group>"; };
-		5154102816D72A47007600A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ACViewController_iPad.xib; sourceTree = "<group>"; };
 		5154102F16D72A47007600A9 /* AsyncTestKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncTestKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5154103016D72A47007600A9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		5154103816D72A47007600A9 /* AsyncTestKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AsyncTestKitTests-Info.plist"; sourceTree = "<group>"; };
 		5154103A16D72A47007600A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5154103C16D72A47007600A9 /* AsyncTestKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsyncTestKitTests.h; sourceTree = "<group>"; };
-		5154103D16D72A47007600A9 /* AsyncTestKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsyncTestKitTests.m; sourceTree = "<group>"; };
+		5154104716D72A6A007600A9 /* AsyncTestKitTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AsyncTestKitTests-Prefix.pch"; sourceTree = "<group>"; };
+		5154104816D72AE9007600A9 /* ACAsyncTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACAsyncTestCase.h; sourceTree = "<group>"; };
+		5154104916D72AE9007600A9 /* ACAsyncTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACAsyncTestCase.m; sourceTree = "<group>"; };
+		5154104B16D72C4D007600A9 /* ACAsyncTestCaseTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACAsyncTestCaseTests.h; sourceTree = "<group>"; };
+		5154104C16D72C4D007600A9 /* ACAsyncTestCaseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACAsyncTestCaseTests.m; sourceTree = "<group>"; };
+		5154104F16D72D63007600A9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5154100316D72A47007600A9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5154100A16D72A47007600A9 /* UIKit.framework in Frameworks */,
-				5154100C16D72A47007600A9 /* Foundation.framework in Frameworks */,
-				5154100E16D72A47007600A9 /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5154102B16D72A47007600A9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -89,6 +62,7 @@
 		51540FFD16D72A47007600A9 = {
 			isa = PBXGroup;
 			children = (
+				5154104F16D72D63007600A9 /* README.md */,
 				5154100F16D72A47007600A9 /* AsyncTestKit */,
 				5154103616D72A47007600A9 /* AsyncTestKitTests */,
 				5154100816D72A47007600A9 /* Frameworks */,
@@ -99,7 +73,6 @@
 		5154100716D72A47007600A9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5154100616D72A47007600A9 /* AsyncTestKit.app */,
 				5154102F16D72A47007600A9 /* AsyncTestKitTests.octest */,
 			);
 			name = Products;
@@ -119,36 +92,17 @@
 		5154100F16D72A47007600A9 /* AsyncTestKit */ = {
 			isa = PBXGroup;
 			children = (
-				5154101816D72A47007600A9 /* ACAppDelegate.h */,
-				5154101916D72A47007600A9 /* ACAppDelegate.m */,
-				5154102116D72A47007600A9 /* ACViewController.h */,
-				5154102216D72A47007600A9 /* ACViewController.m */,
-				5154102416D72A47007600A9 /* ACViewController_iPhone.xib */,
-				5154102716D72A47007600A9 /* ACViewController_iPad.xib */,
-				5154101016D72A47007600A9 /* Supporting Files */,
+				5154104816D72AE9007600A9 /* ACAsyncTestCase.h */,
+				5154104916D72AE9007600A9 /* ACAsyncTestCase.m */,
 			);
 			path = AsyncTestKit;
-			sourceTree = "<group>";
-		};
-		5154101016D72A47007600A9 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5154101116D72A47007600A9 /* AsyncTestKit-Info.plist */,
-				5154101216D72A47007600A9 /* InfoPlist.strings */,
-				5154101516D72A47007600A9 /* main.m */,
-				5154101716D72A47007600A9 /* AsyncTestKit-Prefix.pch */,
-				5154101B16D72A47007600A9 /* Default.png */,
-				5154101D16D72A47007600A9 /* Default@2x.png */,
-				5154101F16D72A47007600A9 /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		5154103616D72A47007600A9 /* AsyncTestKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				5154103C16D72A47007600A9 /* AsyncTestKitTests.h */,
-				5154103D16D72A47007600A9 /* AsyncTestKitTests.m */,
+				5154104B16D72C4D007600A9 /* ACAsyncTestCaseTests.h */,
+				5154104C16D72C4D007600A9 /* ACAsyncTestCaseTests.m */,
 				5154103716D72A47007600A9 /* Supporting Files */,
 			);
 			path = AsyncTestKitTests;
@@ -157,6 +111,7 @@
 		5154103716D72A47007600A9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5154104716D72A6A007600A9 /* AsyncTestKitTests-Prefix.pch */,
 				5154103816D72A47007600A9 /* AsyncTestKitTests-Info.plist */,
 				5154103916D72A47007600A9 /* InfoPlist.strings */,
 			);
@@ -166,23 +121,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5154100516D72A47007600A9 /* AsyncTestKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5154104116D72A47007600A9 /* Build configuration list for PBXNativeTarget "AsyncTestKit" */;
-			buildPhases = (
-				5154100216D72A47007600A9 /* Sources */,
-				5154100316D72A47007600A9 /* Frameworks */,
-				5154100416D72A47007600A9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = AsyncTestKit;
-			productName = AsyncTestKit;
-			productReference = 5154100616D72A47007600A9 /* AsyncTestKit.app */;
-			productType = "com.apple.product-type.application";
-		};
 		5154102E16D72A47007600A9 /* AsyncTestKitTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5154104416D72A47007600A9 /* Build configuration list for PBXNativeTarget "AsyncTestKitTests" */;
@@ -195,7 +133,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				5154103516D72A47007600A9 /* PBXTargetDependency */,
 			);
 			name = AsyncTestKitTests;
 			productName = AsyncTestKitTests;
@@ -224,26 +161,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5154100516D72A47007600A9 /* AsyncTestKit */,
 				5154102E16D72A47007600A9 /* AsyncTestKitTests */,
+				5154105816D72E7B007600A9 /* AsyncTestKitDocumentation */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5154100416D72A47007600A9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5154101416D72A47007600A9 /* InfoPlist.strings in Resources */,
-				5154101C16D72A47007600A9 /* Default.png in Resources */,
-				5154101E16D72A47007600A9 /* Default@2x.png in Resources */,
-				5154102016D72A47007600A9 /* Default-568h@2x.png in Resources */,
-				5154102616D72A47007600A9 /* ACViewController_iPhone.xib in Resources */,
-				5154102916D72A47007600A9 /* ACViewController_iPad.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5154102C16D72A47007600A9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -268,62 +192,34 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		5154105C16D72E87007600A9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/appledoc \\\n--project-name \"AsyncTestKit\" \\\n--project-company \"acoomans\" \\\n--company-id \"com.acoomans\" \\\n--output build \\\n--create-docset \\\n--install-docset \\\n--create-html \\\n--exit-threshold 2 \\\n--no-repeat-first-par \\\nAsyncTestKit";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5154100216D72A47007600A9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5154101616D72A47007600A9 /* main.m in Sources */,
-				5154101A16D72A47007600A9 /* ACAppDelegate.m in Sources */,
-				5154102316D72A47007600A9 /* ACViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5154102A16D72A47007600A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5154103E16D72A47007600A9 /* AsyncTestKitTests.m in Sources */,
+				5154104A16D72AE9007600A9 /* ACAsyncTestCase.m in Sources */,
+				5154104D16D72C4D007600A9 /* ACAsyncTestCaseTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		5154103516D72A47007600A9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5154100516D72A47007600A9 /* AsyncTestKit */;
-			targetProxy = 5154103416D72A47007600A9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		5154101216D72A47007600A9 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5154101316D72A47007600A9 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		5154102416D72A47007600A9 /* ACViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5154102516D72A47007600A9 /* en */,
-			);
-			name = ACViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		5154102716D72A47007600A9 /* ACViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5154102816D72A47007600A9 /* en */,
-			);
-			name = ACViewController_iPad.xib;
-			sourceTree = "<group>";
-		};
 		5154103916D72A47007600A9 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -393,38 +289,15 @@
 			};
 			name = Release;
 		};
-		5154104216D72A47007600A9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AsyncTestKit/AsyncTestKit-Prefix.pch";
-				INFOPLIST_FILE = "AsyncTestKit/AsyncTestKit-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		5154104316D72A47007600A9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AsyncTestKit/AsyncTestKit-Prefix.pch";
-				INFOPLIST_FILE = "AsyncTestKit/AsyncTestKit-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
 		5154104516D72A47007600A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AsyncTestKit.app/AsyncTestKit";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AsyncTestKit/AsyncTestKit-Prefix.pch";
+				GCC_PREFIX_HEADER = "AsyncTestKitTests/AsyncTestKitTests-Prefix.pch";
 				INFOPLIST_FILE = "AsyncTestKitTests/AsyncTestKitTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -435,17 +308,30 @@
 		5154104616D72A47007600A9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AsyncTestKit.app/AsyncTestKit";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AsyncTestKit/AsyncTestKit-Prefix.pch";
+				GCC_PREFIX_HEADER = "AsyncTestKitTests/AsyncTestKitTests-Prefix.pch";
 				INFOPLIST_FILE = "AsyncTestKitTests/AsyncTestKitTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		5154105A16D72E7C007600A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5154105B16D72E7C007600A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -461,19 +347,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5154104116D72A47007600A9 /* Build configuration list for PBXNativeTarget "AsyncTestKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5154104216D72A47007600A9 /* Debug */,
-				5154104316D72A47007600A9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
 		5154104416D72A47007600A9 /* Build configuration list for PBXNativeTarget "AsyncTestKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5154104516D72A47007600A9 /* Debug */,
 				5154104616D72A47007600A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5154105916D72E7C007600A9 /* Build configuration list for PBXAggregateTarget "AsyncTestKitDocumentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5154105A16D72E7C007600A9 /* Debug */,
+				5154105B16D72E7C007600A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
